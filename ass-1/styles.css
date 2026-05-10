@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    font-size: 80px;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: white;
+    padding: 30px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#left {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 204, 0);
+}
+
+#image {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 10%;
+    width: 25%;
+   
+}
+#writen{
+    margin-left: 8%;
+}
+#first{
+    margin-top: 10%;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+#second{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 900;
+    text-bold: 900;
+}
+#third{
+    color: rgb(85, 83, 83);
+    font-size: 18px;
+    line-height: 1.6;
+}
+#date{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+#fourth1{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+#fourth2{
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 5px;
+}
+#image2{
+    height: 30%;
+    width: 25%;
+    opacity: 0.2;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+#image3{
+    position: absolute;
+
+    height: 80%;
+    width: 65%;
+
+    top: 50%;
+    left: 58%;
+
+    transform: translate(-40%, -50%);
+}
+#right {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(247, 226, 135);
+}
